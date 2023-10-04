@@ -77,6 +77,8 @@ img {
   display: flex;
   gap: 40px;
   margin-right: auto;
+  transition: 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .logo {
@@ -122,11 +124,6 @@ img {
 
 .info {
   font-style: normal;
-}
-
-.address-info {
-  transition: 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .link-info {
