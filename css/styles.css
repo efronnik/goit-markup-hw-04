@@ -435,7 +435,6 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 
 .text-soc {
@@ -450,6 +449,10 @@ img {
 .list-footer {
   display: flex;
   gap: 16px;
+}
+
+.footer-logo-container {
+  margin-right: 120px;
 }
 
 .item-footer {
