@@ -134,7 +134,7 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-info:hover,
@@ -367,10 +367,13 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.app:hover .app-cover-text {
-  transform: translateY(0);
+.app:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.app:hover .app-cover-text {
+  transform: translateY(0);
 }
 
 .app-cover-wrap {
